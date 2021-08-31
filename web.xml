@@ -5,13 +5,21 @@
     http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
     version="3.1" metadata-complete="true">
 
-   <servlet>
-    <servlet-name>SaitoServlet</servlet-name>
-	<servlet-class>SaitoServlet</servlet-class>
-</servlet>
-<servlet-mapping>
-	<servlet-name>SaitoServlet</servlet-name>
-	<url-pattern>/SaitoServlet</url-pattern>
-</servlet-mapping>
+	<servlet>
+    	<servlet-name>SaitoServlet</servlet-name>
+		<servlet-class>SaitoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaitoServlet</servlet-name>
+		<url-pattern>/SaitoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>HosoiServlet</servlet-name>
+		<servlet-class>HosiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HosoiServlet</servlet-name>
+		<url-pattern>/HosoiServlet</url-pattern>
+	</servlet-mapping>
 
    </web-app>
